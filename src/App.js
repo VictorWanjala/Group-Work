@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { Routes, Route, Link } from 'react-router-dom';
 import Victor from './Victor';
@@ -23,11 +23,13 @@ function App() {
 
        <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/home' element={<Home/>}/>
         <Route path='/mutanyi' element={<Mutanyi/>}/>
         <Route path='/masibo' element={<Masibo/>}/>
         <Route path='/mercy' element={<Mercy/>}/>
         <Route path='/william' element={<William/>}/>
-        <Route path='/william' element={<Victor/>}/>
+        <Route path='/Victor' element={<Victor/>}/>
+        
       
       </Routes>
     </div>
